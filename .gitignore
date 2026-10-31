@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Audio / transcription artifacts
+deliver.m4a
+deliver.wav
+deliver.wav.srt
+deliver.wav.txt
+deliver.wav.vtt
+
+# Whisper transcription output
+whisper_out/
+
+# Rendered video output
+output/
+
+# Rendered slide images
+slides/
+
+# Font binaries
+fonts/

@@ -1,0 +1,108 @@
+{
+  "settings": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "supersample": 2,
+    "bg": "#0a0a0b",
+    "bgSoft": "#101016",
+    "card": "#121216",
+    "text": "#ece9e1",
+    "muted": "#8b887e",
+    "accent": "#e3b341",
+    "cjk": "/System/Library/Fonts/Hiragino Sans GB.ttc"
+  },
+  "scenes": [
+    {
+      "id": "intro",
+      "kicker": "LZWJAVA.COM",
+      "title_en": "Three Projects,\nOne Builder",
+      "title_zh": "三个项目 · 一位建造者",
+      "accent": "#e3b341",
+      "urls": ["lzwjava.com"],
+      "duration": 8,
+      "zoom": "in",
+      "captions": [
+        {"en": "Hi, I'm Zhiwei — I build software and train AI.", "zh": "你好，我是 Lzw。我做软件，也训练 AI。", "words": 10},
+        {"en": "Three projects: a lab, a studio, and a blog.", "zh": "三个项目：实验室、工作室、博客。", "words": 11}
+      ]
+    },
+    {
+      "id": "truthlab",
+      "kicker": "PROJECT 01 · AI RESEARCH LAB",
+      "title_en": "Truth Lab",
+      "title_zh": "求真实验室",
+      "accent": "#e3b341",
+      "urls": ["truthlab.cc"],
+      "duration": 14,
+      "zoom": "out",
+      "bullets": [
+        {"en": "Small LLMs trained from scratch", "zh": "从零训练小型大模型"},
+        {"en": "52 GB home GPU cluster, used parts", "zh": "52GB 家用显卡集群，二手件"},
+        {"en": "Honest experiments, failures included", "zh": "诚实的实验，包括失败"}
+      ],
+      "captions": [
+        {"en": "A one-person AI research lab.", "zh": "一个人的 AI 研究实验室。", "words": 7},
+        {"en": "GPT-2 scale models on real data.", "zh": "GPT-2 规模的模型，真实数据。", "words": 7},
+        {"en": "See the numbers — truthlab.cc.", "zh": "来看真实数据：truthlab.cc。", "words": 6}
+      ]
+    },
+    {
+      "id": "truthsoft",
+      "kicker": "PROJECT 02 · CONSULTING STUDIO",
+      "title_en": "Truth Software",
+      "title_zh": "求真软件",
+      "accent": "#4fc3b9",
+      "urls": ["truthsoft.dev"],
+      "duration": 14,
+      "zoom": "in",
+      "bullets": [
+        {"en": "40+ products delivered & shipped", "zh": "交付 40+ 个产品"},
+        {"en": "AI-native team · 1B+ tokens a day", "zh": "AI 原生团队 · 每日 10亿+ tokens"},
+        {"en": "AI roadmap delivered in weeks", "zh": "数周交付 AI 转型方案"}
+      ],
+      "captions": [
+        {"en": "Studio behind 40+ shipped products.", "zh": "40+ 个已交付产品背后的工作室。", "words": 7},
+        {"en": "Mini Programs, iOS, Android, Web.", "zh": "小程序、iOS、Android、Web。", "words": 7},
+        {"en": "Need help building? truthsoft.dev.", "zh": "需要做产品？truthsoft.dev。", "words": 6}
+      ]
+    },
+    {
+      "id": "blog",
+      "kicker": "PROJECT 03 · AI-POWERED BLOG",
+      "title_en": "lzwjava.com",
+      "title_zh": "AI 博客 · 作品集",
+      "accent": "#7aa2f7",
+      "urls": ["lzwjava.com/ai-portfolio-en", "lzwjava.com/portfolio-en"],
+      "duration": 11,
+      "zoom": "out",
+      "bullets": [
+        {"en": "Each post translated · narrated · PDF & EPUB", "zh": "每篇：翻译 · 朗读 · PDF 与 EPUB"},
+        {"en": "AI portfolio & software portfolio", "zh": "AI 作品集 + 软件作品集"}
+      ],
+      "captions": [
+        {"en": "My home base.", "zh": "我的大本营。", "words": 4},
+        {"en": "Every post AI-translated, with audio, PDF & EPUB.", "zh": "每篇文章 AI 翻译：音频、PDF、EPUB。", "words": 8},
+        {"en": "Portfolios backed by real benchmarks.", "zh": "带真实数据的作品集。", "words": 6}
+      ]
+    },
+    {
+      "id": "cta",
+      "kicker": "LET'S BUILD",
+      "title_en": "Build something\nhonest.",
+      "title_zh": "一起来，求真的创造",
+      "accent": "#e3b341",
+      "urls": ["truthlab.cc", "truthsoft.dev", "lzwjava.com"],
+      "duration": 8,
+      "zoom": "in",
+      "bullets": [
+        {"en": "AI transformation?  →  Truth Lab", "zh": "AI 转型？求真实验室"},
+        {"en": "Software done right?  →  Truth Software", "zh": "产品放心做？求真软件"}
+      ],
+      "captions": [
+        {"en": "Visit truthlab.cc & truthsoft.dev", "zh": "访问 truthlab.cc 与 truthsoft.dev", "words": 5},
+        {"en": "Follow along at lzwjava.com — build something honest.", "zh": "关注 lzwjava.com，一起做出真实的东西。", "words": 9}
+      ]
+    }
+  ]
+}
